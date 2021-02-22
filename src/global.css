@@ -1,0 +1,32 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html,
+body {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
+
+/* [tabindex] {
+	display: flex;
+	width: 100%;
+} */
+
+.services_detail .swiper-button-prev:after,
+.services_detail .swiper-button-next:after {
+	font-family: swiper-icons;
+	font-size: var(--swiper-navigation-size);
+	text-transform: none !important;
+	letter-spacing: 0;
+	text-transform: none;
+	font-variant: initial;
+	line-height: 1;
+	background: #987acd;
+	padding: 15px 15px;
+	color: #fdfdfd;
+	font-size: 35px;
+}

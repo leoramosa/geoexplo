@@ -1,0 +1,232 @@
+.content_home {
+	height: 100%;
+	display: flex;
+	/* position: absolute; */
+	width: 100%;
+	flex-direction: column;
+	position: relative;
+	min-height: 100vh;
+}
+
+.Home_container {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+}
+
+.overlay {
+	width: 100%;
+	/* height: 100%; */
+	height: 100%;
+	background: #000000b8;
+	display: flex;
+	bottom: 0;
+	align-items: center;
+	color: white;
+	font-size: 22px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.img_content {
+	height: 100%;
+	max-width: 1200px;
+	width: 100%;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.full {
+	width: 100%;
+	height: 520px;
+}
+
+.swiper_content_app {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.swiper_container-box_1 {
+	height: 100%;
+	width: 100%;
+	background: url('../../images/cover1.jpg') center center;
+	background-size: cover;
+}
+.swiper_container-box_2 {
+	background: url('../../images/cover2.jpg') center center;
+	background-size: cover;
+}
+
+.title_overlay {
+	font-size: 50px;
+	color: #ffffff;
+	padding-bottom: 25px;
+	font-weight: 500;
+	padding-top: 15px;
+}
+
+.button_header button {
+	cursor: pointer;
+}
+.button_header button {
+	padding: 12px 22px;
+	border: 0;
+	background: #3679ba;
+	color: white;
+	border: 1px solid #3679ba;
+	font-size: 27px;
+}
+
+/* project style */
+
+.projects {
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.project_title {
+	text-align: center;
+	font-size: 25px;
+	font-weight: 400;
+	padding-top: 43px;
+	padding-bottom: 32px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.project_count {
+	display: flex;
+	font-family: 'Open Sans', sans-serif;
+	justify-content: space-around;
+}
+
+.project_box {
+	width: 280px;
+	/* padding: 15px; */
+	cursor: pointer;
+}
+
+.project_img {
+	background-size: cover;
+	width: 280px;
+	height: 260px;
+	padding: 15px;
+	transition: 2s;
+	display: flex;
+	flex-direction: column-reverse;
+}
+
+.project_img:hover .project_img_content {
+	height: 60px;
+}
+
+.project_img.one {
+	background: url('../../images/laguna.jpg') center center;
+}
+.project_img.two {
+	background: url('../../images/perfo.jpg') center center;
+}
+.project_img.three {
+	background: url('../../images/project3.jpg') center center;
+}
+.project_img.four {
+	background: url('../../images/project4.jpg') center center;
+}
+
+.project_img_content {
+	background: #3679bac9;
+	width: 100%;
+	height: 100%;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	color: white;
+	font-size: 21px;
+	font-weight: 500;
+	transition: 2s;
+}
+
+.project_info {
+	text-align: center;
+	padding-top: 7px;
+}
+
+.project_info_title {
+	color: #383838;
+	font-size: 18px;
+	padding-top: 15px;
+	font-weight: 700;
+}
+
+.project_plus {
+	text-decoration: none;
+	color: #5d5d5d;
+	font-size: 18px;
+	padding-top: 5px;
+}
+
+.project_button {
+	text-align: center;
+	padding-top: 24px;
+	padding-bottom: 34px;
+	cursor: pointer;
+}
+.project_button button {
+	background: transparent;
+	border: 0;
+	border: 2px solid #3679ba;
+	padding: 14px 37px;
+	font-size: 22px;
+	color: #3679ba;
+	cursor: pointer;
+}
+
+/*end project style */
+
+/* querys */
+
+@media (max-width: 1140px) {
+	.overlay .img_content {
+		padding-left: 65px;
+	}
+	.project_count {
+		flex-wrap: wrap;
+	}
+	.project_box {
+		padding-bottom: 25px;
+	}
+}
+
+@media (max-width: 576px) {
+	.project_box {
+		width: 150px;
+		padding-left: 2.5px;
+		padding-right: 2.5px;
+	}
+	.project_img {
+		width: 150px;
+		height: 130px;
+	}
+	.project_img_content {
+		font-size: 16px;
+	}
+	.project_button button {
+		font-size: 16px;
+	}
+	.project_title {
+		font-size: 22px;
+	}
+	.full {
+		height: 350px;
+	}
+	.title_overlay {
+		font-size: 25px;
+	}
+	.button_header button {
+		padding: 12px 22px;
+		font-size: 16px;
+	}
+}
+
+/* end querys */

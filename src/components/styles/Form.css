@@ -1,0 +1,252 @@
+.form-container {
+	width: 100%;
+	/*  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.2); */
+	border-radius: 10px;
+	display: grid;
+	grid-template-columns: 3fr 2fr;
+	font-family: 'Quicksand', sans-serif;
+}
+
+.close-btn {
+	position: absolute;
+	top: 2%;
+	right: 3%;
+	font-size: 1.5rem;
+	z-index: 1;
+	color: #fff;
+	cursor: pointer;
+}
+
+.form-content-left {
+	border-radius: 10px 0 0 10px;
+	position: relative;
+}
+
+.form-img {
+	width: 80%;
+	height: 80%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.form-img-2 {
+	width: 60%;
+	height: 60%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.map_google {
+	padding-bottom: 25px;
+}
+
+/* .form.form-success-ok h1 {
+  font-size: 22px;
+  color: #7d1ef8;
+} */
+
+.form-content-right {
+	border-radius: 0 10px 10px 0;
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #573883;
+}
+
+.form-content-right-success {
+	border-radius: 0 10px 10px 0;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+}
+
+.form {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.form h1 {
+	font-size: 1rem;
+	text-align: start;
+	width: 80%;
+	margin-bottom: 1rem;
+	color: #fff;
+}
+
+h1.form-success {
+	text-align: center;
+	font-size: 24px;
+	color: #39373d;
+}
+
+.form-inputs {
+	margin-bottom: 0.5rem;
+	width: 80%;
+	text-align: left;
+}
+
+.form-inputs p {
+	margin-top: 0.5rem;
+	color: #f00e0e;
+}
+
+.form-label {
+	display: inline-block;
+	font-size: 16px;
+	margin-bottom: 6px;
+	color: black;
+}
+
+.form-input.textarea {
+	height: 155px;
+	/* border: none; */
+	font-family: 'Quicksand', sans-serif;
+}
+
+.form-input {
+	display: block;
+	padding-left: 10px;
+	border-radius: 5px;
+	height: 40px;
+	width: 100%;
+	border: none;
+	border: 1px solid #b69c73;
+	padding: 10px 13px;
+}
+
+.form-input::placeholder {
+	color: #8d8d8d;
+	font-size: 14px;
+}
+
+.form-input-btn {
+	width: 80%;
+	height: 50px;
+	margin-top: 10px;
+	border-radius: 2px;
+	background: linear-gradient(90deg, #b69c73 0%, #886f47 100%);
+	outline: none;
+	border: none;
+	color: #fff;
+	font-size: 1rem;
+	transition: 0.5s;
+}
+.form-btn-disable {
+	width: 80%;
+	height: 50px;
+	margin-top: 10px;
+	border-radius: 2px;
+	background: #a5a5a5;
+	outline: none;
+	border: none;
+	color: #fff;
+	font-size: 1rem;
+	transition: 0.5s;
+	align-items: center;
+	align-content: center;
+	display: flex;
+	justify-content: center;
+}
+
+.form-input-btn:hover {
+	cursor: pointer;
+	background: linear-gradient(90deg, #886f47 0%, #b69c73 100%);
+	transition: all 0.4s ease-out;
+}
+
+.form-input-login {
+	font-size: 0.8rem;
+	margin-top: 10px;
+	color: #fff;
+	width: 80%;
+	text-align: center;
+}
+
+.form-input-login a {
+	text-decoration: none;
+	color: #27cdff;
+	font-weight: 600;
+}
+
+.whastapp-btn .btn-whatsapp {
+	color: #14b44f;
+	border-radius: 21px;
+	border: 2px solid #14b44f;
+	margin-bottom: 15px;
+	text-decoration: none;
+	padding: 10px 23px;
+	transition: 0.5s;
+}
+
+.whastapp-btn .btn-whatsapp:hover {
+	background-color: #14b44f;
+	color: white;
+}
+
+.whastapp-btn {
+	display: flex;
+	align-items: center;
+	padding-top: 15px;
+	justify-content: center;
+}
+.whastapp-btn a {
+	text-decoration: none;
+}
+
+.content-btn {
+	display: flex;
+	border: 2px solid #771bec;
+	border-radius: 25px;
+	align-items: center;
+	font-weight: 600;
+	padding: 2px 20px;
+}
+
+.img-what img {
+	width: 35px;
+}
+
+@media screen and (max-width: 1200px) {
+	.content_map {
+		width: 400px;
+		padding: 0 15px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.content_map {
+		width: 350px;
+		padding: 0 15px;
+	}
+	.form-content-left {
+		text-align: center;
+		padding-top: 22px;
+	}
+
+	.whastapp-btn {
+		justify-content: center;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	.form-container {
+		display: initial;
+	}
+}
+
+@media screen and (max-width: 488px) {
+	.content_map {
+		width: 300px;
+		height: 250px;
+		padding: 0 15px;
+	}
+}
