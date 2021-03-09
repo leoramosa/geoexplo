@@ -29,6 +29,16 @@
 	background-size: cover;
 	color: white;
 }
+.row_service:active {
+	background: url('../../images/back-complete-two.jpg') center center;
+	background-size: cover;
+	color: white;
+}
+.row_service:focus {
+	background: url('../../images/back-complete-two.jpg') center center;
+	background-size: cover;
+	color: white;
+}
 
 .row_service:hover .detail-title {
 	color: white;
