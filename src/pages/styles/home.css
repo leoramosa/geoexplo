@@ -57,6 +57,15 @@
 	background: url('../../images/cover2.jpg') center center;
 	background-size: cover;
 }
+.swiper_container-box_3 {
+	background: url('../../images/cover4.jpg') center center;
+	background-size: cover;
+}
+.swiper_container-box_4 {
+	background: url('../../images/cover5.jpg') center center;
+	background-size: cover;
+	background-position-y: 0;
+}
 
 .title_overlay {
 	font-size: 50px;
@@ -195,6 +204,13 @@
 	}
 	.project_box {
 		padding-bottom: 25px;
+	}
+}
+
+@media (max-width: 576px) {
+	.overlay .img_content {
+		padding-left: 50px;
+		padding-right: 35px;
 	}
 }
 

@@ -46,7 +46,7 @@
 .row_service:hover .button-whatsapp {
 	background-color: #ffffff;
 	border: 2px solid white;
-	color: #3679ba;
+	color: #007bc1;
 }
 
 .row_service.one {
@@ -158,9 +158,9 @@
 
 .button-whatsapp {
 	font-size: 16px;
-	background-color: #3679ba;
+	background-color: #007bc1;
 	padding: 6px 17px;
-	border: 2px solid #3679ba;
+	border: 1px solid #ffffff;
 	transition: 0.5s;
 	color: #ffffff;
 	cursor: pointer;

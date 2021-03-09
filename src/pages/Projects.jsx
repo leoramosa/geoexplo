@@ -29,7 +29,7 @@ function Projects () {
                     <p className="detail-title-projects">{project.name}</p>
                     <div className="content-button-projects">
                         <div className="content-bo-projects">
-                            <a className="btn-whatsapp-projects" href={`https://api.whatsapp.com/send?phone=51936859231&text=${project.mensaje}${project.name}`} rel="noopener noreferrer" target="_blank">
+                            <a className="btn-whatsapp-projects" href={`https://api.whatsapp.com/send?phone=51995508944&text=${project.mensaje}${project.name}`} rel="noopener noreferrer" target="_blank">
                               <button className="button-whatsapp-projects" type="button">
                                   <i className="fab fa-whatsapp-projects"></i> {project.buttonstyle}
                               </button> 

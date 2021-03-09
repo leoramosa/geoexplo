@@ -15,7 +15,7 @@ function Course () {
           <div className="content_row-course">
              <p>Cursos Online</p> 
             <div className="button-course">
-              <a href="leo">
+              <a href="https://api.whatsapp.com/send?phone=51995508944&text=Hola%20quisiera%20m%C3%A1s%20infomacion%20sobre%20los%20cursos%20online" rel="noopener noreferrer" target="_blank">
                 <button type="button">
                   más informacion
                 </button>

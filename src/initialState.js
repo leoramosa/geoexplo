@@ -73,25 +73,25 @@ export default {
       'mensaje':'Hola%20quisera%20solicitar%20informaci%C3%B3n%20del%20proyecto%20'
     },
     {
-      'id':1,
+      'id':2,
       'name':'Au-Ag Epitermal',
       'image': 'https://apiweb.netlify.app/images/geoexplo/project02.png',
       'buttonstyle':'más informacion',
       'mensaje':'Hola%20quisera%20solicitar%20informaci%C3%B3n%20del%20proyecto%20'
     },
     {
-      'id':1,
+      'id':3,
       'name':'Vetas Polimetálicas',
       'image': 'https://apiweb.netlify.app/images/geoexplo/project03.png',
       'buttonstyle':'más informacion',
       'mensaje':'Hola%20quisera%20solicitar%20informaci%C3%B3n%20del%20proyecto%20'
     },
     {
-      'id':1,
+      'id':4,
       'name':'Diversos Proyectos',
-      'image': 'https://apiweb.netlify.app/images/geoexplo/project03.png',
+      'image': 'https://apiweb.netlify.app/images/geoexplo/project04.png',
       'buttonstyle':'más informacion',
-      'mensaje':'Hola%20quisera%20solicitar%20informaci%C3%B3n%20del%20proyecto%20'
+      'mensaje':'Hola%20quisera%20solicitar%20informaci%C3%B3n%20de%20'
     }
   ]
 };

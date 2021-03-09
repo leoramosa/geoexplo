@@ -33,10 +33,10 @@ SwiperCore.use([Navigation, Pagination, Scrollbar, A11y, EffectFade, Autoplay]);
               slidesPerView={1}
               navigation
               loop={true}
-              /* autoplay= {{
-                delay: 2500,
+              autoplay= {{
+                delay: 3000,
                 disableOnInteraction: false,
-              }} */
+              }}
               pagination={{ clickable: true }}
               onSlideChange={() => console.log('slide change')}
               onSwiper={(swiper) => console.log(swiper)}
@@ -51,7 +51,22 @@ SwiperCore.use([Navigation, Pagination, Scrollbar, A11y, EffectFade, Autoplay]);
                       <p className="title_overlay">
                       Expertos en Servicios de Exploración
                       </p>
-                      <Link to="/servicios/negociacion-y-conciliacion" className="button_header" >
+                      <Link to="/servicios" className="button_header" >
+                        <button type="button">
+                          Más información
+                        </button>
+                      </Link>
+                    </div>
+                  </div>
+              </SwiperSlide>
+              <SwiperSlide className="swiper_container-box_4">
+                    <div className="overlay">
+                  <div className="img_content">
+                      
+                      <p className="title_overlay">
+                      Expertos en Servicios de Exploración
+                      </p>
+                      <Link to="/servicios" className="button_header" >
                         <button type="button">
                           Más información
                         </button>
@@ -66,7 +81,22 @@ SwiperCore.use([Navigation, Pagination, Scrollbar, A11y, EffectFade, Autoplay]);
                       <p className="title_overlay">
                       Expertos en Servicios de Exploración
                       </p>
-                      <Link to="/servicios/precios-de-transferencia" className="button_header" >
+                      <Link to="/servicios" className="button_header" >
+                        <button type="button">
+                          Más información
+                        </button>
+                      </Link>
+                    </div>
+                  </div>
+              </SwiperSlide>
+              <SwiperSlide className="swiper_container-box_3">
+                    <div className="overlay">
+                  <div className="img_content">
+                      
+                      <p className="title_overlay">
+                      Expertos en Servicios de Exploración
+                      </p>
+                      <Link to="/servicios" className="button_header" >
                         <button type="button">
                           Más información
                         </button>
@@ -90,7 +120,7 @@ SwiperCore.use([Navigation, Pagination, Scrollbar, A11y, EffectFade, Autoplay]);
                 </div>
                 <div className="project_info">
                   <p className="project_info_title">Trámite de Concesiones Mineras</p>
-                  <Link to="/servicios/contractual" className="project_plus" >ver más</Link>
+                  <Link to="/servicios" className="project_plus" >ver más</Link>
                 </div>
               </div>
               <div className="project_box">
@@ -101,7 +131,7 @@ SwiperCore.use([Navigation, Pagination, Scrollbar, A11y, EffectFade, Autoplay]);
                 </div>
                 <div className="project_info">
                 <p className="project_info_title">Trámite para la autorización de uso de propiedad superficial </p>
-                  <Link to="/servicios/corporativo" className="project_plus" href>ver más</Link>
+                  <Link to="/servicios" className="project_plus" href>ver más</Link>
                 </div>
               </div>
               <div className="project_box">
@@ -112,7 +142,7 @@ SwiperCore.use([Navigation, Pagination, Scrollbar, A11y, EffectFade, Autoplay]);
                 </div>
                 <div className="project_info">
                 <p className="project_info_title">Mapeo Geológico, toma de muestras a nivel global</p>
-                  <Link to="/servicios/tributario"  className="project_plus" href>ver más</Link>
+                  <Link to="/servicios"  className="project_plus" href>ver más</Link>
                 </div>
               </div>
               <div className="project_box">
@@ -123,7 +153,7 @@ SwiperCore.use([Navigation, Pagination, Scrollbar, A11y, EffectFade, Autoplay]);
                 </div>
                 <div className="project_info">
                 <p className="project_info_title">Mapeo Geológico, toma de muestras a nivel de Targets</p>
-                  <Link to="/servicios/Arbitraje" className="project_plus" href>ver más</Link>
+                  <Link to="/servicios" className="project_plus" href>ver más</Link>
                 </div>
               </div>
             </div>

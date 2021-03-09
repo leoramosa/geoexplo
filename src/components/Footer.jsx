@@ -29,14 +29,20 @@ import { Link } from "react-router-dom";
          <div className="explorer">
            <p className="title-info">Destacados</p>
            <div className="link-footer">
-            <Link className="footerLink" to="/s"><p>Proyectos</p></Link> 
-            <Link className="footerLink" to="/s"><p>Servicios</p></Link> 
+            <Link className="footerLink" to="/servicios"><p>Servicios</p></Link> 
+            <Link className="footerLink" to="/proyectos"><p>Proyectos</p></Link> 
+            <Link className="footerLink" to="/geoplay"><p>Geo Play</p></Link> 
              
            </div>
          </div>
        </div>
        <div className="derechos desktop">
-         <p>© Copyright Geoexplo Villavicencio 2021 -Todos los derechos reservados</p>
+         <p>© Copyright Geoexplo Villavicencio 2021 - Todos los derechos reservados</p>
+         <p className="diseño">Diseñado y desarrollado por <a className="dweb" href="https://leoramos.netlify.app/" target="_blank" rel="noreferrer"> Leonardo Ramos</a></p>
+       </div>
+       <div className="derechos mobile">
+         <p>© Copyright Geoexplo Villavicencio 2021</p>
+        <p>Todos los derechos reservados</p>
          <p className="diseño">Diseñado y desarrollado por <a className="dweb" href="https://leoramos.netlify.app/" target="_blank" rel="noreferrer"> Leonardo Ramos</a></p>
        </div>
 

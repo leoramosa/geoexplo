@@ -30,7 +30,7 @@ const useForm = (callback, validate) => {
   const handleSubmit = e =>{
     e.preventDefault();
    
-  emailjs.send('gmail','template_3zxeg35', values, 'user_rPPWQKnZV3R0p4Gt6M7Hu')
+  emailjs.send('service_02qojlj','template_nedl4z9', values, 'user_aTS1qTMZtfPMABT0DsDFw')
   .then((response) => {
          console.log('SUCCESS!', response.status, response.text);
          setErrors(validate(values));
