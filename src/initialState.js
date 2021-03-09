@@ -5,10 +5,7 @@ export default {
       'id':1,
       'name':'Trámite de Concesiones Mineras',
       'image': 'https://apiweb.netlify.app/images/geo.jpg',
-      'hora':'60:00 min',
-      'price':'$25.00 o S/. 80.00',
-      'payment':'paypal o transferencia',
-      'breve': 'El tarot es una  de las mancias mas antiguas del mundo, pero no solo es eso, tambien es una herramienta terapéutica  muy profunda que nos ayuda a reflexionar sobre nuestra propia realidad. ',
+      'breve': '',
       'buttontype':'solicitar',
       'details':'tramite-de-concesiones-mineras',
       'tipo':'servicios',
@@ -18,10 +15,8 @@ export default {
       'id':2,
       'name':'Trámite para la autorización de uso de propiedad superficial ',
       'image': 'https://apiweb.netlify.app/images/geo.jpg',
-      'hora':'60:00 o 90:00 min',
-      'price':" $35.00 o S/. 115.00",
-      'payment':'paypal o transferencia',
-      'breve': 'Multiples formas de tomar este servicio  ',
+   
+      'breve': ' ',
       'buttontype':'solicitar',
       'details':'consulta-astral',
       'tipo':'servicios',
@@ -186,5 +181,36 @@ export default {
       'tipo':'producto',
       'mensaje':'Hola%20quiero%20reservar%20el%20producto%20Sales%20de%20magia%20e%20intuici%C3%B3n%2C%20por%20favor%20brindame%20el%20medio%20de%20pago.'
     },
+  ],
+  projects: [
+
+    {
+      'id':1,
+      'name':'Pórfidos de Cu',
+      'image': 'https://apiweb.netlify.app/images/geoexplo/project01.png',
+      'buttonstyle':'más informacion',
+      'mensaje':'Hol2'
+    },
+    {
+      'id':1,
+      'name':'Au-Ag Epitermal',
+      'image': 'https://apiweb.netlify.app/images/geoexplo/project02.png',
+      'buttonstyle':'más informacion',
+      'mensaje':'Hol2'
+    },
+    {
+      'id':1,
+      'name':'Vetas Polimetálicas',
+      'image': 'https://apiweb.netlify.app/images/geoexplo/project03.png',
+      'buttonstyle':'más informacion',
+      'mensaje':'Hol2'
+    },
+    {
+      'id':1,
+      'name':'Diversos Proyectos',
+      'image': 'https://apiweb.netlify.app/images/geoexplo/project03.png',
+      'buttonstyle':'más informacion',
+      'mensaje':'Hol2'
+    }
   ]
 };

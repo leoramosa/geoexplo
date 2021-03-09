@@ -28,13 +28,14 @@ const NavBar = () => {
 
             
             <ul style={styleMenu}>
-                <li onClick={toggleMenu} className="navevent"><NavLink activeClassName="current" to="/" exact>Inico</NavLink></li>
+                <li onClick={toggleMenu} className="navevent"><NavLink activeClassName="current" to="/" exact>Inicio</NavLink></li>
                 <li onClick={toggleMenu} className="navevent"><NavLink activeClassName="current" to="/nosotros" exact>Nosotros</NavLink></li>
                 <li onClick={toggleMenu} className="navevent"><NavLink activeClassName="current" to="/servicios" exact>Servicios</NavLink></li>
-                <li onClick={toggleMenu} className="navevent"><NavLink activeClassName="current" to="/proyectos" exact>proyectos</NavLink></li>
+                <li onClick={toggleMenu} className="navevent"><NavLink activeClassName="current" to="/proyectos" exact>Proyectos</NavLink></li>
+                <li onClick={toggleMenu} className="navevent"><NavLink activeClassName="current" to="/geoplay" exact>GeoPlay</NavLink></li>
                
 
-                <li onClick={toggleMenu} className="navevent"><NavLink activeClassName="current" to="/contacto" exact>Contátenos</NavLink></li>
+                <li onClick={toggleMenu} className="navevent"><NavLink activeClassName="current" to="/contacto" exact>Contáctanos</NavLink></li>
                 <li onClick={toggleMenu}>
                     <img src={Close} alt="" width="30" className="menu" />
                 </li>

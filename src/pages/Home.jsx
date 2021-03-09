@@ -45,11 +45,11 @@ SwiperCore.use([Navigation, Pagination, Scrollbar, A11y, EffectFade, Autoplay]);
               <SwiperSlide className="swiper_container-box_1">
                     <div className="overlay">
                   <div className="img_content">
-                      <p className="title_type">
+                      {/* <p className="title_type">
                         Servicios
-                      </p>
+                      </p> */}
                       <p className="title_overlay">
-                      Trámite de Concesiones Mineras
+                      Expertos en Servicios de Exploración
                       </p>
                       <Link to="/servicios/negociacion-y-conciliacion" className="button_header" >
                         <button type="button">
@@ -62,11 +62,9 @@ SwiperCore.use([Navigation, Pagination, Scrollbar, A11y, EffectFade, Autoplay]);
               <SwiperSlide className="swiper_container-box_2">
                     <div className="overlay">
                   <div className="img_content">
-                      <p className="title_type">
-                        Servicios
-                      </p>
+                      
                       <p className="title_overlay">
-                      	Mapeo Geológico
+                      Expertos en Servicios de Exploración
                       </p>
                       <Link to="/servicios/precios-de-transferencia" className="button_header" >
                         <button type="button">
@@ -91,7 +89,7 @@ SwiperCore.use([Navigation, Pagination, Scrollbar, A11y, EffectFade, Autoplay]);
                   </div>
                 </div>
                 <div className="project_info">
-                  <p className="project_info_title">Trámite para la Autorización para el uso de aguas.</p>
+                  <p className="project_info_title">Trámite de Concesiones Mineras</p>
                   <Link to="/servicios/contractual" className="project_plus" >ver más</Link>
                 </div>
               </div>
@@ -102,7 +100,7 @@ SwiperCore.use([Navigation, Pagination, Scrollbar, A11y, EffectFade, Autoplay]);
                   </div>
                 </div>
                 <div className="project_info">
-                <p className="project_info_title">Realización de Programa de Perforación, </p>
+                <p className="project_info_title">Trámite para la autorización de uso de propiedad superficial </p>
                   <Link to="/servicios/corporativo" className="project_plus" href>ver más</Link>
                 </div>
               </div>
@@ -113,7 +111,7 @@ SwiperCore.use([Navigation, Pagination, Scrollbar, A11y, EffectFade, Autoplay]);
                   </div>
                 </div>
                 <div className="project_info">
-                <p className="project_info_title">Mapeo Geológico</p>
+                <p className="project_info_title">Mapeo Geológico, toma de muestras a nivel global</p>
                   <Link to="/servicios/tributario"  className="project_plus" href>ver más</Link>
                 </div>
               </div>
@@ -124,7 +122,7 @@ SwiperCore.use([Navigation, Pagination, Scrollbar, A11y, EffectFade, Autoplay]);
                   </div>
                 </div>
                 <div className="project_info">
-                <p className="project_info_title">Trámite para la obtención del Certificado de Restos Arqueológicos</p>
+                <p className="project_info_title">Mapeo Geológico, toma de muestras a nivel de Targets</p>
                   <Link to="/servicios/Arbitraje" className="project_plus" href>ver más</Link>
                 </div>
               </div>

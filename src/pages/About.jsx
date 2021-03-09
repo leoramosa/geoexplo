@@ -11,8 +11,8 @@ import { Link } from 'react-router-dom'
         <div className="about-header">
           <div className="about_overlay">
           <div className="about_container">
-              <p className="about_title">Nuestra <strong>Historia</strong></p>
-              <p className="about_info">Nuestra experiencia en el campo de la Geología </p>
+              <p className="about_title">Expertos en <strong>Servicios de Exploración</strong></p>
+              
               <br/>
               <div className="link_contact">
               <Link to="/contacto" className="" >

@@ -1,0 +1,276 @@
+.content_projects {
+	width: 100%;
+	font-family: 'Montserrat', sans-serif;
+}
+.row_projects {
+	padding: 25px 0;
+}
+.row_projects.one {
+	/* 	background: url('../../images/ser1.jpg') no-repeat;
+	background-size: cover; */
+}
+.row_projects.two {
+	background-color: #e2e2e2;
+}
+
+.content-service-g-projects {
+	justify-content: center;
+	margin: auto;
+	max-width: 1200px;
+}
+
+.projects_all {
+	display: flex;
+}
+
+.content_projects {
+	display: flex;
+	margin: auto;
+	max-width: 1200px;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+}
+
+.wrapper_all-projects {
+	width: 45%;
+	display: flex;
+
+	justify-content: center;
+	text-align: left;
+	flex-direction: column;
+}
+.wrapper_two-projects {
+	width: 55%;
+	display: flex;
+	padding-left: 30px;
+}
+
+.wrapper_img-projects img {
+	width: 100%;
+	padding: 0 5px;
+}
+
+.content-imagen-projects {
+	max-width: 300px;
+}
+.content-imagen-projects img {
+	width: 100%;
+}
+
+.content-swiper {
+	justify-content: center;
+	text-align: center;
+	display: flex;
+	background: #139af724;
+	flex-direction: column;
+	text-align: center;
+	align-items: center;
+	padding: 10px 14px 15px 14px;
+	max-width: 270px;
+	margin: 0 10px;
+}
+
+/* styles swiper */
+
+.title-event-projects {
+	width: 100%;
+	max-width: 1200px;
+	margin: auto;
+	color: white;
+	display: flex;
+	margin-top: 10px;
+}
+.title-event-projects p {
+	/* display: inline-block; */
+	font-size: 22px;
+	/* border-bottom: 2px solid #1299f6; */
+	color: white;
+	width: 100%;
+	text-align: left;
+	padding-left: 9px;
+	background: #39373d;
+	padding-top: 7px;
+	padding-bottom: 7px;
+}
+.line_color {
+	width: 15px;
+
+	background-color: #007abe;
+}
+
+.detail-title-projects {
+	font-size: 51px;
+	font-family: 'Montserrat', sans-serif;
+	color: #007abe;
+	line-height: 57px;
+	text-align: left;
+	font-weight: 600;
+	padding-bottom: 16px;
+}
+.detail-price-projects {
+	padding: 5px 0 11px;
+	font-weight: 500;
+}
+
+.breve-projects {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	width: 100%;
+	font-weight: 400;
+}
+
+.button-whatsapp-projects {
+	font-size: 24px;
+	background-color: transparent;
+	padding: 6px 17px;
+	border: 2px solid #007abe;
+	transition: 0.5s;
+	color: #007abe;
+	cursor: pointer;
+}
+.button-whatsapp-disable-projects {
+	font-size: 20px;
+	background-color: #a9a9a9;
+	color: white;
+	padding: 8px 17px;
+	border: none;
+	border-radius: 3px;
+	transition: 0.5s;
+}
+
+.button-whatsapp-projects a {
+	text-decoration: none;
+	color: white;
+}
+
+.button-whatsapp-projects:hover {
+	background-color: #007abe;
+	color: white;
+}
+.button-whatsapp-projects:hover a {
+	color: white;
+}
+
+.content-button-projects {
+	display: flex;
+	padding-top: 30px;
+	width: 100%;
+}
+
+.content-bt-projects {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-left: 21px;
+	font-size: 22px;
+}
+
+.content-button-disable-service-projects {
+	display: flex;
+	justify-content: center;
+	padding: 0 14px;
+	padding-top: 12px;
+}
+
+.detail-ver-projects {
+	color: #7e7e7e;
+	font-weight: 500;
+	border-bottom: 1px solid #7e7e7e;
+	margin-bottom: 1px;
+	text-decoration: none;
+}
+.detail-ver-projects:hover {
+	color: #575656;
+	border-bottom: 1px solid #575656;
+}
+
+.services_detail-projects .swiper-container {
+	padding-bottom: 35px;
+}
+
+/* end styles swiper */
+
+@media (max-width: 1200px) {
+	.row_projects {
+		padding: 12px 25px;
+	}
+	.detail-title-projects {
+		font-size: 36px;
+		line-height: 44px;
+	}
+}
+
+@media (max-width: 1228px) {
+	.services_detail-projects {
+		margin: 0 15px;
+	}
+}
+@media (max-width: 960px) {
+	.content-all-swiper-projects {
+		margin: 0 20px;
+	}
+	.button-whatsapp-disable-projects {
+		font-size: 16px;
+	}
+}
+
+@media (max-width: 768px) {
+	.projects_all {
+		display: flex;
+		flex-direction: column-reverse;
+	}
+	.wrapper_all-projects {
+		width: 100%;
+	}
+
+	.wrapper_two-projects {
+		width: 100%;
+		padding-left: 0px;
+	}
+
+	.content-all-swiper-projects {
+		margin: 0;
+	}
+	.detail-title-projects {
+		font-size: 36px;
+		line-height: 44px;
+		text-align: center;
+		padding-bottom: 0;
+	}
+
+	.breve-projects {
+		text-align: center;
+	}
+	.content-button-projects {
+		padding-top: 14px;
+		justify-content: center;
+	}
+	.row_projects {
+		padding-bottom: 25px;
+	}
+}
+
+@media (max-width: 600px) {
+	.detail-title-projects {
+		font-size: 28px;
+		line-height: initial;
+	}
+	.button-whatsapp-projects {
+		font-size: 18px;
+	}
+	.content-bt-projects {
+		font-size: 18px;
+	}
+}
+@media (max-width: 480px) {
+	.breve-projects {
+		font-size: 12px;
+	}
+	.row_projects {
+		padding: 15px 15px;
+	}
+	.detail-title-projects {
+		font-size: 20px;
+	}
+}

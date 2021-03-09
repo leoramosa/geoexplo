@@ -1,6 +1,5 @@
 
 import React,  { useContext }  from 'react'
-import {Link} from 'react-router-dom'
 import AppContext from "../context/AppContext";
 import './styles/services.css'
 // Import Swiper React components
@@ -23,8 +22,10 @@ function Services () {
           <div className="content-service-g">
           {services.map((service, i) => (
           <div key={i} className="row_service" >
+                <div className="row_title">
 
                     <p className="detail-title">{service.name}</p>
+                </div>
                    
                     <div className="content-button">
                         <div className="content-bo">
@@ -34,9 +35,9 @@ function Services () {
                               </button> 
                             </a>
                         </div>
-                        <div className="content-bt">
+                        {/* <div className="content-bt">
                           <Link className="detail-ver" to={`/servicios/${service.details}`} >ver más</Link>
-                        </div>
+                        </div> */}
                     </div>
           </div>
         ))}

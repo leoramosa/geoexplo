@@ -13,9 +13,9 @@ import { Link } from "react-router-dom";
          <div className="info">
            <p className="title-info">Contáctame</p>
            <div className="">
-            <p>Teléfono: +51 993 861 447</p>
-            <p>Email: vemtas@geoexplovillavicencio.com</p>
-            <p>Direción: Lima - Perú</p>
+            <p>Teléfono: +51 995 508 944</p>
+            <p>Email: svillavicencio@geoexplovillavicencio.com</p>
+            <p>Direción: Av. El Sol 965 - Chorrillos - Lima - Perú</p>
            </div>
          </div>
          <div className="redes">
