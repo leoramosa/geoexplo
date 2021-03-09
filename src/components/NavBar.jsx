@@ -33,6 +33,7 @@ const NavBar = () => {
                 <li onClick={toggleMenu} className="navevent"><NavLink activeClassName="current" to="/servicios" exact>Servicios</NavLink></li>
                 <li onClick={toggleMenu} className="navevent"><NavLink activeClassName="current" to="/proyectos" exact>Proyectos</NavLink></li>
                 <li onClick={toggleMenu} className="navevent"><NavLink activeClassName="current" to="/geoplay" exact>GeoPlay</NavLink></li>
+                <li onClick={toggleMenu} className="navevent"><NavLink activeClassName="current" to="/cursos" exact>Cursos</NavLink></li>
                
 
                 <li onClick={toggleMenu} className="navevent"><NavLink activeClassName="current" to="/contacto" exact>Contáctanos</NavLink></li>

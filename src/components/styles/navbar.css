@@ -63,7 +63,8 @@
 .content-nav a.current {
 	padding-bottom: 4px;
 	border-bottom: 2px solid white;
-	color: #133d54;
+	color: #007bc1;
+	font-weight: 600;
 }
 
 @media (max-width: 700px) {

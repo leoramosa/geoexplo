@@ -5,6 +5,8 @@ import Home from  '../pages/Home'
 import About from  '../pages/About'
 import Services from  '../pages/Services'
 import Projects from  '../pages/Projects'
+import Course from  '../pages/Course'
+import Game from  '../pages/Game'
 import NotFound from  '../pages/NotFound'
 import Contact from  '../pages/Contact'
 import Layout from '../pages/Layout';
@@ -33,6 +35,8 @@ function App ()  {
             <Route  exact path="/servicios" component={Services}  />
             <Route  exact path="/servicios/tramite-de-concesiones-mineras" component={ServiceOne}  />
             <Route  exact path="/proyectos" component={Projects}  />
+            <Route  exact path="/geoplay" component={Game}  />
+            <Route  exact path="/cursos" component={Course}  />
             <Route  exact path="/contacto"  component={Contact} />
             </Layout>
             
