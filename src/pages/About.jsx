@@ -28,7 +28,7 @@ import { Link } from 'react-router-dom'
         <div className="about_information">
           <div className="row_about">
        <p>
-       Somos una empresa peruana especializada en Dirección de Proyectos de Exploración, que brinda soporte a inversiones nacionales y extranjeras.
+       Somos una empresa especializada en Dirección y Administración de Proyectos de Exploración, que brinda soporte a inversiones nacionales y extranjeras.
        </p>
        <p className="second_title">Misión</p>
        <p>

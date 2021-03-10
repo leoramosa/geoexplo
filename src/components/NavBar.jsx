@@ -36,7 +36,7 @@ const NavBar = () => {
                 <li onClick={toggleMenu} className="navevent"><NavLink activeClassName="current" to="/cursos" exact>Cursos</NavLink></li>
                
 
-                <li onClick={toggleMenu} className="navevent"><NavLink activeClassName="current" to="/contacto" exact>Contáctanos</NavLink></li>
+                <li onClick={toggleMenu} className="navevent"><NavLink activeClassName="current" to="/contacto" exact>Contacto</NavLink></li>
                 <li onClick={toggleMenu}>
                     <img src={Close} alt="" width="30" className="menu" />
                 </li>

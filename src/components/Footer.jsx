@@ -11,7 +11,7 @@ import { Link } from "react-router-dom";
       
        <div className="content_info">
          <div className="info">
-           <p className="title-info">Contáctame</p>
+           <p className="title-info">Contáctanos</p>
            <div className="">
             <p>Teléfono: +51 995 508 944</p>
             <p>Email: svillavicencio@geoexplovillavicencio.com</p>
@@ -19,8 +19,9 @@ import { Link } from "react-router-dom";
            </div>
          </div>
          <div className="redes">
-            <p className="title-info">Sígueme:</p>
+            <p className="title-info">Síguenos:</p>
             <div className="icon-redes">
+              <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer"><i class="fab fa-linkedin"></i></a>
               <a href="https://www.facebook.com/" target="_blank" rel="noreferrer"><i className="fab fa-facebook-square"></i></a>
               <a href="https://www.instagram.com/" target="_blank" rel="noreferrer"><i className="fab fa-instagram"></i></a>
 

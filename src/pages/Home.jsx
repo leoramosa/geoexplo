@@ -141,7 +141,7 @@ SwiperCore.use([Navigation, Pagination, Scrollbar, A11y, EffectFade, Autoplay]);
                   </div>
                 </div>
                 <div className="project_info">
-                <p className="project_info_title">Mapeo Geológico, toma de muestras a nivel global</p>
+                <p className="project_info_title">Mapeo Geológico, toma de muestras a escala regional </p>
                   <Link to="/servicios"  className="project_plus" href>ver más</Link>
                 </div>
               </div>
@@ -152,7 +152,7 @@ SwiperCore.use([Navigation, Pagination, Scrollbar, A11y, EffectFade, Autoplay]);
                   </div>
                 </div>
                 <div className="project_info">
-                <p className="project_info_title">Mapeo Geológico, toma de muestras a nivel de Targets</p>
+                <p className="project_info_title">Mapeo Geológico, toma de muestras a escala local</p>
                   <Link to="/servicios" className="project_plus" href>ver más</Link>
                 </div>
               </div>

@@ -15,13 +15,13 @@ export default {
     },
     {
       'id':3,
-      'name':'Mapeo Geológico, toma de muestras a nivel global',
+      'name':'Mapeo Geológico, toma de muestras a escala regional',
       'buttontype':'solicitar',
       'mensaje':'Hola%20quisera%20solicitar%20el%20servicio%20de%20'
     },
     {
       'id':4,
-      'name':'Mapeo Geológico, toma de muestras a nivel de Targets',
+      'name':'Mapeo Geológico, toma de muestras a escala local',
       'buttontype':'solicitar',
       'mensaje':'Hola%20quisera%20solicitar%20el%20servicio%20de%20'
     },

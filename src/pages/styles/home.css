@@ -233,6 +233,14 @@
 	.project_title {
 		font-size: 22px;
 	}
+	.project_info_title {
+		font-size: 14px;
+		padding-top: 4px;
+		padding-bottom: 8px;
+	}
+	.project_plus {
+		font-size: 16px;
+	}
 	.full {
 		height: 350px;
 	}
