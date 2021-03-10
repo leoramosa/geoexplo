@@ -38,8 +38,7 @@ SwiperCore.use([Navigation, Pagination, Scrollbar, A11y, EffectFade, Autoplay]);
                 disableOnInteraction: false,
               }}
               pagination={{ clickable: true }}
-              onSlideChange={() => console.log('slide change')}
-              onSwiper={(swiper) => console.log(swiper)}
+             
               className="full"
             >
               <SwiperSlide className="swiper_container-box_1">
@@ -115,7 +114,7 @@ SwiperCore.use([Navigation, Pagination, Scrollbar, A11y, EffectFade, Autoplay]);
               <div className="project_box">
                 <div className="project_img one">
                 <div className="project_img_content">
-                <i class="fas fa-search"></i>
+                <i className="fas fa-search"></i>
                   </div>
                 </div>
                 <div className="project_info">
@@ -126,7 +125,7 @@ SwiperCore.use([Navigation, Pagination, Scrollbar, A11y, EffectFade, Autoplay]);
               <div className="project_box">
                 <div className="project_img two">
                 <div className="project_img_content">
-                <i class="fas fa-search"></i>
+                <i className="fas fa-search"></i>
                   </div>
                 </div>
                 <div className="project_info">
@@ -137,7 +136,7 @@ SwiperCore.use([Navigation, Pagination, Scrollbar, A11y, EffectFade, Autoplay]);
               <div className="project_box">
                 <div className="project_img three">
                   <div className="project_img_content">
-                  <i class="fas fa-search"></i>
+                  <i className="fas fa-search"></i>
                   </div>
                 </div>
                 <div className="project_info">
@@ -148,7 +147,7 @@ SwiperCore.use([Navigation, Pagination, Scrollbar, A11y, EffectFade, Autoplay]);
               <div className="project_box">
                 <div className="project_img four">
                   <div className="project_img_content">
-                  <i class="fas fa-search"></i>
+                  <i className="fas fa-search"></i>
                   </div>
                 </div>
                 <div className="project_info">

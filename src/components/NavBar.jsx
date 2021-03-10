@@ -22,8 +22,8 @@ const NavBar = () => {
        <div className="logo">
                 <NavLink  to="/"><img src={logoAle} alt=""/></NavLink>
             </div>
-          <div className="menu" onClick={toggleMenu}>
-            <img src={Menu} alt="" width="30" />
+          <div className="menu" style={{paddingRight:12}} onClick={toggleMenu}>
+            <img  src={Menu} alt="" width="30" />
             </div>
 
             
@@ -38,7 +38,7 @@ const NavBar = () => {
 
                 <li onClick={toggleMenu} className="navevent"><NavLink activeClassName="current" to="/contacto" exact>Contacto</NavLink></li>
                 <li onClick={toggleMenu}>
-                    <img src={Close} alt="" width="30" className="menu" />
+                    <img src={Close} alt="" width="20" className="menu" />
                 </li>
             </ul>
 
