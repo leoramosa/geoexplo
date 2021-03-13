@@ -36,7 +36,7 @@ import { Link } from 'react-router-dom'
        </p>
        <p className="second_title">Visión</p>
        <p>
-       Ser la mejor empresa peruana en Dirección de Proyectos de Exploración,  respetando las Comunidades, Medio Ambiente y generando nuevas alternativas de empleo. 
+       Ser la mejor empresa peruana en Dirección y Administración de Proyectos de Exploración,  respetando las Comunidades, Medio Ambiente y generando nuevas alternativas de empleo. 
        </p>
        <p className="second_title">Valores</p>
        <p>
