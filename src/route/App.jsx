@@ -25,12 +25,8 @@ function App ()  {
       <AppContext.Provider value={initialState}>
           
           <Switch>
-
-            <Route exact path="/" >
-                  <Home/>
-            </Route>
-
             <Layout>
+            <Route  exact path="/" component={Home} />
             <Route  exact path="/nosotros" component={About} />
             <Route  exact path="/servicios" component={Services}  />
             <Route  exact path="/servicios/tramite-de-concesiones-mineras" component={ServiceOne}  />

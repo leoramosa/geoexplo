@@ -24,7 +24,6 @@ SwiperCore.use([Navigation, Pagination, Scrollbar, A11y, EffectFade, Autoplay]);
 
       <div className="content_home">
       
-        <NavBar/>
         <div className="Home_container">
         <div className="swiper_content_app">
           <Swiper
@@ -165,7 +164,6 @@ SwiperCore.use([Navigation, Pagination, Scrollbar, A11y, EffectFade, Autoplay]);
             </div>
           </div>
           </div>
-          <Footer/>
       </div>
       
      
