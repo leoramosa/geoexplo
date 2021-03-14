@@ -21,9 +21,9 @@ import { Link } from "react-router-dom";
          <div className="redes">
             <p className="title-info">Síguenos:</p>
             <div className="icon-redes">
-              <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer"><i className="fab fa-linkedin"></i></a>
-              <a href="https://www.facebook.com/" target="_blank" rel="noreferrer"><i className="fab fa-facebook-square"></i></a>
-              <a href="https://www.instagram.com/" target="_blank" rel="noreferrer"><i className="fab fa-instagram"></i></a>
+              <a href="https://www.linkedin.com/company/geoexplovillavicencio/" target="_blank" rel="noreferrer"><i className="fab fa-linkedin"></i></a>
+              <a href="https://www.facebook.com/GeoExploVillavicencio" target="_blank" rel="noreferrer"><i className="fab fa-facebook-square"></i></a>
+              <a href="https://www.instagram.com/GeoExploVillavicencio/" target="_blank" rel="noreferrer"><i className="fab fa-instagram"></i></a>
 
             </div>
          </div>
