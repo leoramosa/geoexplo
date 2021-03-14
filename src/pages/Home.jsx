@@ -20,7 +20,7 @@ SwiperCore.use([Navigation, Pagination, Scrollbar, A11y, EffectFade, Autoplay]);
 
  const Home = () => {
   return (
-    <>
+    <div>
 
       <div className="content_home">
       
@@ -167,7 +167,7 @@ SwiperCore.use([Navigation, Pagination, Scrollbar, A11y, EffectFade, Autoplay]);
       </div>
       
      
-    </>
+    </div>
   )
 }
 
