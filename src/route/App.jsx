@@ -25,15 +25,16 @@ function App ()  {
       <AppContext.Provider value={initialState}>
           
           <Switch>
+
             <Layout>
-              <Route  exact path="/" component={Home} />
-              <Route  exact path="/nosotros" component={About} />
-              <Route  exact path="/servicios" component={Services}  />
-              <Route  exact path="/servicios/tramite-de-concesiones-mineras" component={ServiceOne}  />
-              <Route  exact path="/proyectos" component={Projects}  />
-              <Route  exact path="/geoplay" component={Game}  />
-              <Route  exact path="/cursos" component={Course}  />
-              <Route  exact path="/contacto"  component={Contact} />
+            <Route  exact path="/" component={Home} />
+            <Route  exact path="/nosotros" component={About} />
+            <Route  exact path="/servicios" component={Services}  />
+            <Route  exact path="/servicios/tramite-de-concesiones-mineras" component={ServiceOne}  />
+            <Route  exact path="/proyectos" component={Projects}  />
+            <Route  exact path="/geoplay" component={Game}  />
+            <Route  exact path="/cursos" component={Course}  />
+            <Route  exact path="/contacto"  component={Contact} />
             </Layout>
             
             <Route component={NotFound} />
