@@ -57,7 +57,13 @@ export default {
     },
     {
       'id':10,
-      'name':'Realización de Programa de Perforación',
+      'name':'Preparación y ejecución del Programa de Perforación',
+      'buttontype':'solicitar',
+      'mensaje':'Hola%20quisera%20solicitar%20el%20servicio%20de%20'
+    },
+    {
+      'id':10,
+      'name':'Logueo, QA/QC, Procesamiento de información, interpretación, modelamiento e Informe Final',
       'buttontype':'solicitar',
       'mensaje':'Hola%20quisera%20solicitar%20el%20servicio%20de%20'
     },

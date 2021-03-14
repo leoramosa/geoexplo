@@ -28,25 +28,21 @@
 	background: url('../../images/back-complete-two.jpg') center center;
 	background-size: cover;
 	color: white;
-	background: #007abe;
 }
 .row_service:active {
 	background: url('../../images/back-complete-two.jpg') center center;
 	background-size: cover;
 	color: white;
-	background: #007abe;
 }
 .row_service:focus {
 	background: url('../../images/back-complete-two.jpg') center center;
 	background-size: cover;
 	color: white;
-	background: #007abe;
 }
 .row_service:visited {
 	background: url('../../images/back-complete-two.jpg') center center;
 	background-size: cover;
 	color: white;
-	background: #007abe;
 }
 
 .row_service:hover .detail-title {
@@ -296,6 +292,19 @@
 	}
 	.title-event p {
 		font-size: 18px;
+	}
+
+	.row_service:hover {
+		background: #007abe;
+	}
+	.row_service:active {
+		background: #007abe;
+	}
+	.row_service:focus {
+		background: #007abe;
+	}
+	.row_service:visited {
+		background: #007abe;
 	}
 }
 
